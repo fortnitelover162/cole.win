@@ -1,0 +1,13 @@
+/* To restrict styles to the current slide, panel, or example use [this] */
+[this]{
+	.button.play.button-7 {
+    margin: 0 20px;
+  }
+
+  @include media(1100px, max) {
+    .button.play.button-7 {
+      display: block;
+      margin: 30px auto;
+    }
+  }
+}
